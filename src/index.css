@@ -282,8 +282,12 @@ body {
       @apply text-white font-semibold text-3xl lg:text-7xl text-center max-w-3xl mx-auto;
     }
 
+    #f-canvas-wrapper {
+      @apply relative w-full h-[55vh] lg:h-dvh;
+    }
+
     #f-canvas {
-      @apply !w-full !h-dvh relative z-40;
+      @apply !w-full !h-[55vh] lg:!h-dvh relative z-40;
     }
 
     .box {
@@ -291,6 +295,26 @@ body {
 
       p {
         @apply lg:h3-semibold base-semibold;
+      }
+    }
+
+    .feature-cards {
+      @apply grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto px-5 pt-10 pb-20;
+    }
+
+    .feature-card {
+      @apply bg-[#1D1D1F] rounded-3xl p-8 flex flex-col gap-4 border border-white/5;
+
+      img {
+        @apply size-10;
+      }
+
+      p {
+        @apply base-semibold leading-relaxed;
+
+        span {
+          @apply block mb-1 text-lg;
+        }
       }
     }
   }

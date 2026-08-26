@@ -111,13 +111,6 @@ const features = [
         text: "Wirelessly share photos, large files, and more between your iPhone, your Mac, & other devices.",
         styles: "right-5 md:right-20 top-[70%] opacity-0 translate-y-5",
     },
-    {
-        id: 5,
-        icon: "/feature-icon5.svg",
-        highlight: "Writing Tool.",
-        text: "Write smarter and faster, whether it’s blogs, essays, or captions, AI helps polish your words.",
-        styles: "left-5 md:left-20 top-[90%] opacity-0 translate-y-5",
-    },
 ];
 
 const featureSequence = [
