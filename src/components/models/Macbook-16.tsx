@@ -73,7 +73,7 @@ export default function MacbookModel16(props: React.JSX.IntrinsicElements['group
         (mesh.material as THREE.MeshStandardMaterial).color = new THREE.Color(color)
       }
     })
-  }, [color])
+  }, [color, scene])
 
   return (
     <group {...props} dispose={null}>
