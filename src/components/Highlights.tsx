@@ -16,7 +16,7 @@ const Highlights = () => {
       y: 0,
       opacity: 1,
       stagger: 0.5,
-      duration: 1,
+      duration: 3,
       ease: 'power1.inOut'
     })
   })
@@ -45,7 +45,7 @@ const Highlights = () => {
           </div>
           <div>
             <img src="/battery.png" alt="battery" />
-            <p>Upto{" "}<span className='green-gradient'>14 hours more</span>{" "}battery life. <span className='text-dark-100'>&#91;Upto 24 hours total&#92;</span></p>
+            <p>Upto{" "}<span className='green-gradient'>14 hours more</span>{" "}battery life. <span className='text-dark-100'>&#40;Upto 24 hours total&#41;</span></p>
           </div>
         </div>
       </div>
