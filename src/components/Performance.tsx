@@ -55,7 +55,6 @@ const Performance = () => {
     performanceImgPositions.forEach((item) => {
       if (item.id === 'p5') return;
 
-      const selector = `.${item.id}`;
       const toVars: any = {}
 
       if (typeof item.left === 'number') toVars.left = `${item.left}%`

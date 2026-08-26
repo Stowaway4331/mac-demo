@@ -1,6 +1,5 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import React from 'react'
 import { useMediaQuery } from 'react-responsive';
 
 const Highlights = () => {
