@@ -10,3 +10,8 @@ $ pnpm dev
 ```
 ## Tech Stack: 
 React, Three.js, GSAP.
+
+## TODO
+- Performance optimization
+- Ensure components mount correctly on initial load
+- Add background animations
