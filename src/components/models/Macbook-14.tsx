@@ -64,6 +64,8 @@ type GLTFResult = GLTF & {
 export default function MacbookModel14(props: React.JSX.IntrinsicElements['group']) {
   const { nodes, materials, scene } = useGLTF('/models/macbook-14-transformed.glb') as unknown as GLTFResult
   const texture = useTexture('/screen.png');
+  texture.colorSpace = THREE.SRGBColorSpace;
+  texture.needsUpdate = true;
   const { color } = useMacbookStore()
 
   useEffect(() => {
